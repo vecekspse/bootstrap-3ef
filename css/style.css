@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@400;600&display=swap');
+
+
+:root {
+    --body-body-font-family: "Poppins", sans-serif;
+}
+
+.display-1,
+.display-2 {
+    font-family: "Agbalumo", cursive;
+}
+
+.display-1 {
+    font-size: 8rem;
+}
+
+
+.banner .container {
+    background-image: url(../images/photo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    height: 550px;
+}
+
+.banner h2 {
+    line-height: 3rem;
+    letter-spacing: 4px;
+}
+
+.banner .btn-lg {
+    font-size: 2.5rem;
+    padding: .4rem 1.5rem;
+}
+
+
+.skills .card-img-top {
+    height: 220px;
+}
+
+.projects .carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
